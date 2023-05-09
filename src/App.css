@@ -43,3 +43,10 @@ tr td {
 .searchButton {
   margin-left: .5rem;
 }
+
+@media screen and (max-width: 425px) {
+  tr td {
+    max-width: 115px;
+    overflow-wrap: break-word;
+  }
+}
